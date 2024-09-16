@@ -33,7 +33,6 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 @csrf_exempt
 def index(request):
-    image = request.FILES['image']
     return JsonResponse({"data":"Hello from Justpaid"})
 
 
